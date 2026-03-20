@@ -1,24 +1,39 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class PlayerTopPart : MonoBehaviour
 {
+    public float moveSpeed = 5f;
+    public Transform movePoint;
+    public LayerMask whatStopsMovement;
+
+    void Start()
+    {
+        movePoint.parent = null;
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        if (Keyboard.current == null) return;
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame) transform.Translate(Vector3.up);
-        if (Keyboard.current.downArrowKey.wasPressedThisFrame) transform.Translate(Vector3.down);
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame) transform.Translate(Vector3.right);
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame) transform.Translate(Vector3.left);
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Respawn"))
+        if (Vector3.Distance(transform.position, movePoint.position) <= .05f)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
+            {
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
+                {
+                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                }
+            }
+            else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
+            {
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                {
+                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                }
+            }
         }
     }
 }
