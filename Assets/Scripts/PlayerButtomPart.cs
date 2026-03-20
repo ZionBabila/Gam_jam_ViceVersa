@@ -1,26 +1,54 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class PlayerButtomPart : MonoBehaviour
 {
+    public float moveSpeed = 5f;
+    public Transform movePoint;
+    public LayerMask whatStopsMovement;
+    private bool isInputPressed = false;
+
+    void Start()
+    {
+        movePoint.parent = null;
+    }
+
     void Update()
     {
-        if (Keyboard.current == null) return;
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame) transform.Translate(Vector3.down);
-        if (Keyboard.current.downArrowKey.wasPressedThisFrame) transform.Translate(Vector3.up);
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame) transform.Translate(Vector3.left);
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame) transform.Translate(Vector3.right);
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Respawn"))
+        if (Vector3.Distance(transform.position, movePoint.position) <= .05f)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            float moveX = -Input.GetAxisRaw("Horizontal");
+            float moveY = -Input.GetAxisRaw("Vertical");
+
+            if (moveX == 0f && moveY == 0f)
+            {
+                isInputPressed = false;
+            }
+
+            if (isInputPressed == false)
+            {
+                if (Mathf.Abs(moveX) == 1f)
+                {
+                    isInputPressed = true;
+                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(moveX, 0f, 0f), .2f, whatStopsMovement))
+                    {
+                        movePoint.position += new Vector3(moveX, 0f, 0f);
+                    }
+                }
+                else if (Mathf.Abs(moveY) == 1f)
+                {
+                    isInputPressed = true;
+
+                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, moveY, 0f), .2f, whatStopsMovement))
+                    {
+                        movePoint.position += new Vector3(0f, moveY, 0f);
+                    }
+                }
+            }
         }
     }
 }
-
 
