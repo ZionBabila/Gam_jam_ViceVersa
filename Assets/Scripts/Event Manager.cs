@@ -1,17 +1,28 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class EventManager : MonoBehaviour
 {
     public static int Harts = 3;
 
-    // Update is called once per frame
+    void Start()
+    {
+        Harts = 3;
+    }
     void Update()
     {
         if (Harts<0)
         {
-            PlayerTopPart.isDead = true;
-            PlayerBottomPart.isDead = true;
+            StartCoroutine(WaitAndReload());
         }
+    }
+
+    private IEnumerator WaitAndReload()
+    {
+        PlayerTopPart.isDead = true;
+        PlayerBottomPart.isDead = true;
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

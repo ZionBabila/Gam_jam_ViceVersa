@@ -10,11 +10,13 @@ public class PlayerTopPart : MonoBehaviour
     public LayerMask whatStopsMovement;
     private bool isInputPressed = false;
     public static bool isDead = false;
+    public static Vector3 previousPosition;
 
     void Start()
     {
         isDead = false;
         movePoint.parent = null;
+        previousPosition = transform.position;
     }
 
     void Update()
@@ -24,6 +26,14 @@ public class PlayerTopPart : MonoBehaviour
             return;
         }
         Movement();
+
+
+         if(PlayerBottomPart.Hit == true)
+        {
+            transform.position = previousPosition;
+            movePoint.position = previousPosition;
+            PlayerBottomPart.Hit = false;
+        }
     }
 
     // Player Movment Control
@@ -48,6 +58,7 @@ public class PlayerTopPart : MonoBehaviour
                     isInputPressed = true;
                     if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(moveX, 0f, 0f), .2f, whatStopsMovement))
                     {
+                        previousPosition = movePoint.position;
                         movePoint.position += new Vector3(moveX, 0f, 0f);
                     }
                 }
@@ -57,6 +68,7 @@ public class PlayerTopPart : MonoBehaviour
 
                     if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, moveY, 0f), .2f, whatStopsMovement))
                     {
+                        previousPosition = movePoint.position;
                         movePoint.position += new Vector3(0f, moveY, 0f);
                     }
                 }
@@ -70,13 +82,8 @@ public class PlayerTopPart : MonoBehaviour
         if (other.CompareTag("Damage") && isDead == false)
         {
             EventManager.Harts -= 1;
+            transform.position = previousPosition;
+            movePoint.position = previousPosition;
         }
-    }
-    private IEnumerator WaitAndReload()
-    {
-        isDead = true;
-        PlayerBottomPart.isDead = true;
-        yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

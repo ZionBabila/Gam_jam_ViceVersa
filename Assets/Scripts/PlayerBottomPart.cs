@@ -10,11 +10,17 @@ public class PlayerBottomPart : MonoBehaviour
     public LayerMask whatStopsMovement;
     private bool isInputPressed = false;
     public static bool isDead = false;
+    public static Vector3 previousPosition;
+    public static bool Hit = false;
+
+
 
     void Start()
     {
         isDead = false;
         movePoint.parent = null;
+        previousPosition = transform.position;
+        Hit = false;
     }
 
     void Update()
@@ -48,6 +54,7 @@ public class PlayerBottomPart : MonoBehaviour
                     isInputPressed = true;
                     if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(moveX, 0f, 0f), .2f, whatStopsMovement))
                     {
+                        previousPosition = movePoint.position;
                         movePoint.position += new Vector3(moveX, 0f, 0f);
                     }
                 }
@@ -57,6 +64,7 @@ public class PlayerBottomPart : MonoBehaviour
 
                     if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, moveY, 0f), .2f, whatStopsMovement))
                     {
+                        previousPosition = movePoint.position;
                         movePoint.position += new Vector3(0f, moveY, 0f);
                     }
                 }
@@ -69,7 +77,10 @@ public class PlayerBottomPart : MonoBehaviour
     {
         if (other.CompareTag("Damage") && isDead == false)
         {
-            StartCoroutine(WaitAndReload());
+            EventManager.Harts -= 1;
+            Hit = true;
+            transform.position = previousPosition;
+            movePoint.position = previousPosition;
         }
     }
     private IEnumerator WaitAndReload()
