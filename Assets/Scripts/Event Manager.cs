@@ -60,12 +60,7 @@ public class EventManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    private IEnumerator WaitAndLoad()
-    {
-       
-        yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Yoav - Level2");
-    }
+    //check for both Players
     void Level2()
     {
         if (TopNextLevel == true && BottomNextLevel == true)
@@ -75,5 +70,13 @@ public class EventManager : MonoBehaviour
             PlayerBottomPart.isDead = true;
             StartCoroutine(WaitAndLoad());
         }
+    }
+
+    //Load The Level
+    private IEnumerator WaitAndLoad()
+    {
+       
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Yoav - Level2");
     }
 }

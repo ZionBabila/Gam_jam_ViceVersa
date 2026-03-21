@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 456085360}
   - component: {fileID: 456085361}
   m_Layer: 0
-  m_Name: Square (21)
+  m_Name: Bottom Part Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3241,7 +3241,7 @@ GameObject:
   - component: {fileID: 827690493}
   - component: {fileID: 827690494}
   m_Layer: 0
-  m_Name: Square (19)
+  m_Name: Top Part Portal
   m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3985,7 +3985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 887792565}
   m_Layer: 0
-  m_Name: Targets
+  m_Name: Portals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
