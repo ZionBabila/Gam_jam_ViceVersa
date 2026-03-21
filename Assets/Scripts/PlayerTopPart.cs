@@ -69,7 +69,7 @@ public class PlayerTopPart : MonoBehaviour
     {
         if (other.CompareTag("Damage") && isDead == false)
         {
-            StartCoroutine(WaitAndReload());
+            EventManager.Harts -= 1;
         }
     }
     private IEnumerator WaitAndReload()
