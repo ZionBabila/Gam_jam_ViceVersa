@@ -5066,6 +5066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac106cf0b2774904dad8a1929ee640a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EventManager
+  Hart1: {fileID: 1270150985}
+  Hart2: {fileID: 452607647}
+  Hart3: {fileID: 1137461780}
 --- !u!4 &1187978442
 Transform:
   m_ObjectHideFlags: 0
