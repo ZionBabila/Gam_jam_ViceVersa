@@ -11,12 +11,14 @@ public class PlayerTopPart : MonoBehaviour
     private bool isInputPressed = false;
     public static bool isDead = false;
     public static Vector3 previousPosition;
+    public static bool Hit = false;
 
     void Start()
     {
         isDead = false;
         movePoint.parent = null;
         previousPosition = transform.position;
+        Hit = false;
     }
 
     void Update()
@@ -82,6 +84,7 @@ public class PlayerTopPart : MonoBehaviour
         if (other.CompareTag("Damage") && isDead == false)
         {
             EventManager.Harts -= 1;
+            Hit = true;
             transform.position = previousPosition;
             movePoint.position = previousPosition;
         }

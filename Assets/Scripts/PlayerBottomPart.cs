@@ -30,6 +30,13 @@ public class PlayerBottomPart : MonoBehaviour
             return;
         }
         Movement();
+
+        if (PlayerTopPart.Hit == true)
+        {
+            transform.position = previousPosition;
+            movePoint.position = previousPosition;
+            PlayerTopPart.Hit = false;
+        }
     }
 
     // Player Movment Control
@@ -82,13 +89,6 @@ public class PlayerBottomPart : MonoBehaviour
             transform.position = previousPosition;
             movePoint.position = previousPosition;
         }
-    }
-    private IEnumerator WaitAndReload()
-    {
-        isDead = true; 
-        PlayerTopPart.isDead = true;
-        yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
 
