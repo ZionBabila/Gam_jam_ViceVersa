@@ -23,6 +23,7 @@ public class PlayerTopPart : MonoBehaviour
 
     void Update()
     {
+        //keyboard Takedown
         if (isDead == true)
         {
             return;

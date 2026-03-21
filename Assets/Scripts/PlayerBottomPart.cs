@@ -25,6 +25,7 @@ public class PlayerBottomPart : MonoBehaviour
 
     void Update()
     {
+        //keyboard Takedown
         if (isDead == true)
         {
             return;

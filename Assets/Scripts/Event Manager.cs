@@ -15,17 +15,18 @@ public class EventManager : MonoBehaviour
         Harts = 3;
     }
 
-    // Restart System
     void Update()
     {
         HartUi();
 
+        //Command to restart
         if (Harts<1)
         {
             StartCoroutine(WaitAndReload());
         }
     }
 
+    //Visual representation of the hits
     void HartUi()
     {
         if (Harts < 3)
@@ -43,6 +44,8 @@ public class EventManager : MonoBehaviour
             Destroy(Hart3);
         }
     }
+
+    // Restart System
     private IEnumerator WaitAndReload()
     {
         PlayerTopPart.isDead = true;
