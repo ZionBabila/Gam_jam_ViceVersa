@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerBottomPart : MonoBehaviour
 {
@@ -8,13 +9,25 @@ public class PlayerBottomPart : MonoBehaviour
     public Transform movePoint;
     public LayerMask whatStopsMovement;
     private bool isInputPressed = false;
+    public static bool isDead = false;
 
     void Start()
     {
+        isDead = false;
         movePoint.parent = null;
     }
 
     void Update()
+    {
+        if (isDead == true)
+        {
+            return;
+        }
+        Movement();
+    }
+
+    // Player Movment Control
+    void Movement()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
@@ -50,5 +63,24 @@ public class PlayerBottomPart : MonoBehaviour
             }
         }
     }
+
+    // Damage System
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Damage") && isDead == false)
+        {
+            StartCoroutine(WaitAndReload());
+        }
+    }
+    private IEnumerator WaitAndReload()
+    {
+        isDead = true; 
+        PlayerTopPart.isDead = true;
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
+
+
+
 
