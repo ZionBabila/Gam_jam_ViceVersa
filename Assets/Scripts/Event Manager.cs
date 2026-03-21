@@ -8,12 +8,16 @@ public class EventManager : MonoBehaviour
     public GameObject Hart1;
     public GameObject Hart2;
     public GameObject Hart3;
+    public static bool TopNextLevel = false;
+    public static bool BottomNextLevel = false;
 
 
     void Start()
     {
         Harts = 3;
-    }
+        TopNextLevel = false;
+        BottomNextLevel = false;
+}
 
     void Update()
     {
@@ -24,6 +28,8 @@ public class EventManager : MonoBehaviour
         {
             StartCoroutine(WaitAndReload());
         }
+
+        Level2();
     }
 
     //Visual representation of the hits
@@ -52,5 +58,22 @@ public class EventManager : MonoBehaviour
         PlayerBottomPart.isDead = true;
         yield return new WaitForSeconds(5f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private IEnumerator WaitAndLoad()
+    {
+       
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Yoav - Level2");
+    }
+    void Level2()
+    {
+        if (TopNextLevel == true && BottomNextLevel == true)
+        {
+            Debug.Log("win");
+            PlayerTopPart.isDead = true;
+            PlayerBottomPart.isDead = true;
+            StartCoroutine(WaitAndLoad());
+        }
     }
 }

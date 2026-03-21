@@ -79,15 +79,23 @@ public class PlayerTopPart : MonoBehaviour
         }
     }
 
-    // Damage System
+    // Detect Systems
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //Damage System
         if (other.CompareTag("Damage") && isDead == false)
         {
             EventManager.Harts -= 1;
             Hit = true;
             transform.position = previousPosition;
             movePoint.position = previousPosition;
+        }
+
+         // Portal System
+        if (other.CompareTag("Portal"))
+        {
+            Debug.Log("top");
+            EventManager.TopNextLevel = true;
         }
     }
 }
