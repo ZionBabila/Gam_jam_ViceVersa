@@ -94,8 +94,24 @@ public class PlayerTopPart : MonoBehaviour
          // Portal System
         if (other.CompareTag("Portal"))
         {
-            Debug.Log("top");
+            Debug.Log("portal");
             EventManager.TopNextLevel = true;
+        }
+
+        // Zion Detect
+        if (other.CompareTag("Block"))
+        {
+            Debug.Log("Block");
+        }
+
+        if (other.CompareTag("Damage"))
+        {
+            Debug.Log("Damage Block");
+        }
+
+        if (other.CompareTag("Boundaries"))
+        {
+            Debug.Log("Boundaries");
         }
     }
 }
