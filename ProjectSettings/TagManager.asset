@@ -8,6 +8,7 @@ TagManager:
   - Portal
   - Boundaries
   - Block
+  - Break
   layers:
   - Default
   - TransparentFX

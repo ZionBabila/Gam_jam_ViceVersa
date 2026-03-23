@@ -100,27 +100,18 @@ public class PlayerTopPart : MonoBehaviour
             movePoint.position = previousPosition;
         }
 
-         // Portal System
+        //Break Graves System
+        if (other.CompareTag("Break"))
+        {
+            transform.position = previousPosition;
+            movePoint.position = previousPosition;
+        }
+
+        // Portal System
         if (other.CompareTag("Portal"))
         {
             Debug.Log("portal");
             EventManager.TopNextLevel = true;
-        }
-
-        // Zion Detect
-        if (other.CompareTag("Block"))
-        {
-            Debug.Log("Block");
-        }
-
-        if (other.CompareTag("Damage"))
-        {
-            Debug.Log("Damage Block");
-        }
-
-        if (other.CompareTag("Boundaries"))
-        {
-            Debug.Log("Boundaries");
         }
     }
 }

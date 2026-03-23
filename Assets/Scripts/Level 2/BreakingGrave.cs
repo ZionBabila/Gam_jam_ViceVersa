@@ -2,18 +2,46 @@ using UnityEngine;
 
 public class BreakingGrave : MonoBehaviour
 {
-    public class ImageChanger : MonoBehaviour
+    public SpriteRenderer spriteRenderer;
+    private int currentFrame = 0;
+    public Sprite frame1;
+    public Sprite frame2;
+    public Sprite frame3;
+    public Sprite frame4;
+    public GameObject ObjectToSpawn;
+    private void Start()
     {
-        public Sprite targetImage;
-        public Sprite Frame1;
-        public Sprite Frame2;
-        public Sprite Frame3;
-        public Sprite Frame4;
+        currentFrame = 0;
+    }
 
-
-        public void ChangeImage()
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            targetImage.sprite = Frame1;
+            currentFrame++;
+
+            if (currentFrame == 1)
+            {
+                spriteRenderer.sprite = frame1;
+            }
+            else if (currentFrame == 2)
+            {
+                spriteRenderer.sprite = frame2;
+            }
+            else if (currentFrame == 3)
+            {
+                spriteRenderer.sprite = frame3;
+            }
+            else if (currentFrame == 4)
+            {
+                spriteRenderer.sprite = frame4;
+            }
+            else if (currentFrame == 5)
+            {
+                Instantiate(ObjectToSpawn, transform.position, transform.rotation);
+                Destroy(gameObject);
+            }
+
         }
     }
 }
