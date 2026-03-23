@@ -100,6 +100,7 @@ public class PlayerTopPart : MonoBehaviour
             transform.position = previousPosition;
             movePoint.position = previousPosition;
             RedHit.Red = true;
+            AudioManager.OuchSound = true;
         }
 
         //Break Graves System

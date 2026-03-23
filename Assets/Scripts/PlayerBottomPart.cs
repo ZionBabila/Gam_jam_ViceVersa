@@ -90,6 +90,8 @@ public class PlayerBottomPart : MonoBehaviour
             Hit = true;
             transform.position = previousPosition;
             movePoint.position = previousPosition;
+            RedHit.Red = true;
+            AudioManager.OuchSound = true;
         }
 
         // Portal System

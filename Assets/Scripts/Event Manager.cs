@@ -21,14 +21,13 @@ public class EventManager : MonoBehaviour
 
     void Update()
     {
-        HartUi();
-
         //Command to restart
         if (Harts<1)
         {
             StartCoroutine(WaitAndReload());
         }
 
+        HartUi();
         Level2();
     }
 
