@@ -13,6 +13,7 @@ public class PlayerTopPart : MonoBehaviour
     public static Vector3 previousPosition;
     public static bool Hit = false;
 
+
     void Start()
     {
         isDead = false;
@@ -98,6 +99,7 @@ public class PlayerTopPart : MonoBehaviour
             Hit = true;
             transform.position = previousPosition;
             movePoint.position = previousPosition;
+            RedHit.Red = true;
         }
 
         //Break Graves System

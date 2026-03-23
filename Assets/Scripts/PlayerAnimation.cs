@@ -9,6 +9,7 @@ public class PlayerAnimation : MonoBehaviour
     private PlayerTopPart topMovement;
     private PlayerBottomPart bottomMovement;
 
+
     void Awake()
     {
         // Get the movement scripts attached to this GameObject
