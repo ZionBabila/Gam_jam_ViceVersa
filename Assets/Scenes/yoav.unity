@@ -364,7 +364,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3157,7 +3157,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -4670,7 +4670,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9571,7 +9571,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9836,6 +9836,18 @@ PrefabInstance:
     - target: {fileID: 5531108269780785142, guid: 3a3886e249bf7f64ca1cda4aa2dfaf1c, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.40208203
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372152133129334384, guid: 3a3886e249bf7f64ca1cda4aa2dfaf1c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412849944330820899, guid: 3a3886e249bf7f64ca1cda4aa2dfaf1c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212008302795599581, guid: 3a3886e249bf7f64ca1cda4aa2dfaf1c, type: 3}
+      propertyPath: whatStopsMovement.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10949,7 +10961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1753778343}
   - component: {fileID: 1753778342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grave2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

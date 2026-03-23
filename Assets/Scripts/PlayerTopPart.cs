@@ -39,6 +39,15 @@ public class PlayerTopPart : MonoBehaviour
         }
     }
 
+    private void OnDrawGizmos()
+    {
+        if (movePoint != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0f), .2f);
+        }
+    }
+
     // Player Movment Control
     void Movement()
     { 
@@ -59,7 +68,7 @@ public class PlayerTopPart : MonoBehaviour
                 if (Mathf.Abs(moveX) == 1f)
                 {
                     isInputPressed = true;
-                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(moveX, 0f, 0f), .2f, whatStopsMovement))
+                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(moveX, 0f, 0f), .4f, whatStopsMovement))
                     {
                         previousPosition = movePoint.position;
                         movePoint.position += new Vector3(moveX, 0f, 0f);
@@ -69,7 +78,7 @@ public class PlayerTopPart : MonoBehaviour
                 {
                     isInputPressed = true; 
 
-                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, moveY, 0f), .2f, whatStopsMovement))
+                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, moveY, 0f), .4f, whatStopsMovement))
                     {
                         previousPosition = movePoint.position;
                         movePoint.position += new Vector3(0f, moveY, 0f);
