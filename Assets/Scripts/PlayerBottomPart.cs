@@ -65,6 +65,11 @@ public class PlayerBottomPart : MonoBehaviour
                         previousPosition = movePoint.position;
                         movePoint.position += new Vector3(moveX, 0f, 0f);
                     }
+                    else
+                    {
+                        AudioManager.hitSound = true;
+                        Debug.Log("hit");
+                    }
                 }
                 else if (Mathf.Abs(moveY) == 1f)
                 {
@@ -74,6 +79,11 @@ public class PlayerBottomPart : MonoBehaviour
                     {
                         previousPosition = movePoint.position;
                         movePoint.position += new Vector3(0f, moveY, 0f);
+                    }
+                    else
+                    {
+                        AudioManager.hitSound = true;
+                        Debug.Log("hit");
                     }
                 }
             }
