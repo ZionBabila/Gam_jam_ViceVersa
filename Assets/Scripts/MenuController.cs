@@ -6,6 +6,7 @@ using System.Collections;
 public class MenuController : MonoBehaviour
 {
     public GameObject Menu;
+    public GameObject about;
 
     void Start()
     {
@@ -23,7 +24,7 @@ public class MenuController : MonoBehaviour
         Menu.SetActive(false);
     }
 
-    public void OnRestartClick()
+    public void OnRstartClick()
     {
         Debug.Log("restart work!");
         StartCoroutine(WaitAndReload());
@@ -36,4 +37,25 @@ public class MenuController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void OnstartClick()
+    {
+        StartCoroutine(LoadLevel1());
+    }
+
+    //Load  Level 1
+    private IEnumerator LoadLevel1()
+    {
+
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Yoav");
+    }
+
+    public void OnaboutClick()
+    {
+        about.SetActive(true);
+    }
 }
+    
+
+    
