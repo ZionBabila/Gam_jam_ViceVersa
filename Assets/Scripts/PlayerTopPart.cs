@@ -32,7 +32,7 @@ public class PlayerTopPart : MonoBehaviour
         Movement();
 
 
-         if(PlayerBottomPart.Hit == true)
+        if (PlayerBottomPart.Hit == true)
         {
             transform.position = previousPosition;
             movePoint.position = previousPosition;
@@ -51,7 +51,7 @@ public class PlayerTopPart : MonoBehaviour
 
     // Player Movment Control
     void Movement()
-    { 
+    {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
         if (Vector3.Distance(transform.position, movePoint.position) <= .05f)
@@ -73,16 +73,28 @@ public class PlayerTopPart : MonoBehaviour
                     {
                         previousPosition = movePoint.position;
                         movePoint.position += new Vector3(moveX, 0f, 0f);
+
+                    }
+                    else
+                    {
+                        AudioManager.hitSound = true;
+                        Debug.Log("hit");
                     }
                 }
                 else if (Mathf.Abs(moveY) == 1f)
                 {
-                    isInputPressed = true; 
+                    isInputPressed = true;
 
                     if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, moveY, 0f), .4f, whatStopsMovement))
                     {
                         previousPosition = movePoint.position;
                         movePoint.position += new Vector3(0f, moveY, 0f);
+                       
+                    }
+                    else
+                    {
+                        AudioManager.hitSound = true;
+                        Debug.Log("hit");
                     }
                 }
             }
