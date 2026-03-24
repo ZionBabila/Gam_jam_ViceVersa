@@ -99,7 +99,7 @@ public class PlayerTopPart : MonoBehaviour
             Hit = true;
             transform.position = previousPosition;
             movePoint.position = previousPosition;
-            RedHit.Red = true;
+            RedHitTop.Red = true;
             AudioManager.OuchSound = true;
         }
 

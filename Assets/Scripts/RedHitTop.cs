@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class RedHit : MonoBehaviour
+public class RedHitTop : MonoBehaviour
 {
     public static bool Red = false;
     private SpriteRenderer spriteRenderer;

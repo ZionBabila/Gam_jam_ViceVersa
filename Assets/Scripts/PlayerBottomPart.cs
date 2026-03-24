@@ -90,8 +90,15 @@ public class PlayerBottomPart : MonoBehaviour
             Hit = true;
             transform.position = previousPosition;
             movePoint.position = previousPosition;
-            RedHit.Red = true;
+            RedHitBottom.Red = true;
             AudioManager.OuchSound = true;
+        }
+
+        //Break Graves System
+        if (other.CompareTag("Break"))
+        {
+            transform.position = previousPosition;
+            movePoint.position = previousPosition;
         }
 
         // Portal System
