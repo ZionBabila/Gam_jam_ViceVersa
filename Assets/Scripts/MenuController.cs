@@ -16,19 +16,24 @@ public class MenuController : MonoBehaviour
     {
         Debug.Log("settings work!");
         Menu.SetActive(true);
+        AudioManager.clickSound = true;
     }
 
     public void OnCloseClick()
     {
         Debug.Log("close work!");
         Menu.SetActive(false);
+        AudioManager.clickSound = true;
     }
+
 
     public void OnRstartClick()
     {
         Debug.Log("restart work!");
         StartCoroutine(WaitAndReload());
+        AudioManager.clickSound = true;
     }
+
 
     private IEnumerator WaitAndReload()
     {
@@ -41,6 +46,7 @@ public class MenuController : MonoBehaviour
     public void OnstartClick()
     {
         StartCoroutine(LoadLevel1());
+        AudioManager.clickSound = true;
     }
 
     //Load  Level 1
@@ -54,6 +60,7 @@ public class MenuController : MonoBehaviour
     public void OnaboutClick()
     {
         about.SetActive(true);
+        AudioManager.clickSound = true;
     }
 }
     
