@@ -67,7 +67,7 @@ public class PlayerBottomPart : MonoBehaviour
                     }
                     else
                     {
-                        AudioManager.hitSound = true;
+                        AudioManager.hitFirstSound = true;
                         Debug.Log("hit");
                     }
                 }
@@ -82,7 +82,7 @@ public class PlayerBottomPart : MonoBehaviour
                     }
                     else
                     {
-                        AudioManager.hitSound = true;
+                        AudioManager.hitFirstSound = true;
                         Debug.Log("hit");
                     }
                 }

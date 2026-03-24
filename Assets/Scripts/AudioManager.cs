@@ -6,20 +6,46 @@ public class AudioManager : MonoBehaviour
 
     //Sounds and Variables
     public AudioClip ouch;
-    public AudioClip hit;
+
+    public AudioClip click;
+    public AudioClip ghost;
+    public AudioClip winLevel;
+    public AudioClip hitFirst;
+    public AudioClip hitSecond;
+    public AudioClip hitLast;
+
     public static bool OuchSound = false;
-    public static bool hitSound = false;
+    public static bool hitFirstSound = false;
+    public static bool hitSecondSound = false;
+    public static bool hitLastSound = false;
+    public static bool clickSound = false;
+    public static bool ghostSound = false;
+    public static bool winLevelSound = false;
+
+
+
     void Start()
     {
         source = GetComponent<AudioSource>();
         OuchSound = false;
-        hitSound = false;
+        hitFirstSound = false;
+        hitSecondSound = false;
+        hitLastSound = false;
+        clickSound = false;
+        ghostSound = false;
+        winLevelSound = false;
     }
 
     void Update()
     {
         Ouch();
-        Hit();
+        Click();
+        Ghost();
+        WinLevel();
+        HitFirst();
+        HitSecond();
+        HitLast();
+
     }
 
     private void Ouch()
@@ -30,12 +56,52 @@ public class AudioManager : MonoBehaviour
             OuchSound = false;
         }
     }
-    private void Hit()
+    private void Click()
     {
-        if (hitSound == true)
+        if (clickSound == true)
         {
-            source.PlayOneShot(hit);
-            hitSound = false;
+            source.PlayOneShot(click);
+            clickSound = false;
+        }
+    }
+    private void Ghost()
+    {
+        if (ghostSound == true)
+        {
+            source.PlayOneShot(ghost);
+            ghostSound = false;
+        }
+    }
+    private void WinLevel()
+    {
+        if (winLevelSound == true)
+        {
+            source.PlayOneShot(winLevel);
+            winLevelSound = false;
+        }
+    }
+    private void HitFirst()
+    {
+        if (hitFirstSound == true)
+        {
+            source.PlayOneShot(hitFirst);
+            hitFirstSound = false;
+        }
+    }
+    private void HitSecond()
+    {
+        if (hitSecondSound == true)
+        {
+            source.PlayOneShot(hitSecond);
+            hitSecondSound = false;
+        }
+    }
+    private void HitLast()
+    {
+        if (hitLastSound == true)
+        {
+            source.PlayOneShot(hitLast);
+            hitLastSound = false;
         }
     }
 }
