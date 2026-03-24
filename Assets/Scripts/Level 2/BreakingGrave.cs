@@ -38,7 +38,11 @@ public class BreakingGrave : MonoBehaviour
             }
             else if (currentFrame == 5)
             {
-                Instantiate(ObjectToSpawn, transform.position, transform.rotation);
+                if (ObjectToSpawn != null)
+                {
+                    Instantiate(ObjectToSpawn, transform.position, transform.rotation);
+
+                }
                 Destroy(gameObject);
             }
 
