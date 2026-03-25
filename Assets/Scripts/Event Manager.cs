@@ -10,6 +10,9 @@ public class EventManager : MonoBehaviour
     public GameObject Hart3;
     public static bool TopNextLevel = false;
     public static bool BottomNextLevel = false;
+    public static bool BottomWin = false;
+    public static bool TopWin = false;
+
 
 
     void Start()
@@ -29,6 +32,7 @@ public class EventManager : MonoBehaviour
 
         HartUi();
         Level2();
+        win();
     }
 
     //Visual representation of the hits
@@ -77,5 +81,14 @@ public class EventManager : MonoBehaviour
        
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("Yoav - Level2");
+    }
+
+    //Win
+    void win()
+    {
+        if(TopWin && BottomWin)
+        {
+            Debug.Log("win");
+        }
     }
 }
