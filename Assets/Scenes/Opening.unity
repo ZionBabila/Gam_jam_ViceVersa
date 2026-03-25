@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   ouch: {fileID: 8300000, guid: acb70ba0d09cf3f45a4b5dd46610c58a, type: 3}
-  click: {fileID: 8300000, guid: 951e51567e185dc4e9408b0dea960f39, type: 3}
+  click: {fileID: 8300000, guid: 221667e35e5c5bd4f98d6d3f277456f9, type: 3}
   ghost: {fileID: 0}
   winLevel: {fileID: 0}
   hitFirst: {fileID: 0}
