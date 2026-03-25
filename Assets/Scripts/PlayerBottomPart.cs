@@ -117,6 +117,14 @@ public class PlayerBottomPart : MonoBehaviour
             Debug.Log("bottom");
             EventManager.BottomNextLevel = true;
         }
+
+        // Last Portal System
+        if (other.CompareTag("Last Portal"))
+        {
+            Debug.Log("Last portal");
+            Destroy(gameObject);
+            EventManager.BottomWin = true;
+        }
     }
 }
 
