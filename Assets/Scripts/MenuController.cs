@@ -7,10 +7,19 @@ public class MenuController : MonoBehaviour
 {
     public GameObject Menu;
     public GameObject about;
+    public GameObject WinMenu;
+    public static bool winM = false;
+
 
     void Start()
     {
         Menu.SetActive(false);
+        WinMenu.SetActive(false);
+    }
+
+    private void Update()
+    {
+        Win();
     }
     public void OnSettingsClick()
     {
@@ -61,6 +70,27 @@ public class MenuController : MonoBehaviour
     {
         about.SetActive(true);
         AudioManager.clickSound = true;
+    }
+
+    public void Win()
+    {
+        if (winM)
+        {
+            WinMenu.SetActive(true);
+            Debug.Log("winMenu");
+        }
+    }
+
+    public void OnContinue()
+    {
+        StartCoroutine(Continueload());
+        AudioManager.clickSound = true;
+    }
+
+    private IEnumerator Continueload()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Opening");
     }
 }
     
