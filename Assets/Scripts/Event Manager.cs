@@ -60,6 +60,7 @@ public class EventManager : MonoBehaviour
         PlayerTopPart.isDead = true;
         PlayerBottomPart.isDead = true;
         yield return new WaitForSeconds(3f);
+        AudioManager.loseLevelSound = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

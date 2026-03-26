@@ -10,39 +10,51 @@ public class MenuController : MonoBehaviour
     public GameObject WinMenu;
     public static bool winM = false;
 
-
     void Start()
     {
-        Menu.SetActive(false);
-        WinMenu.SetActive(false);
+        // Added null checks to avoid errors if the object is missing in the scene
+        if (Menu != null) 
+            Menu.SetActive(false);
+            
+        if (WinMenu != null) 
+            WinMenu.SetActive(false);
+            
+        // Reset win state to prevent the menu from appearing immediately in a new scene
+        winM = false;
     }
 
     private void Update()
     {
         Win();
     }
+
     public void OnSettingsClick()
     {
-        Debug.Log("settings work!");
-        Menu.SetActive(true);
-        AudioManager.clickSound = true;
+        // Check if Menu exists before trying to activate it
+        if (Menu != null)
+        {
+            Debug.Log("Settings work!");
+            Menu.SetActive(true);
+            AudioManager.clickSound = true;
+        }
     }
 
     public void OnCloseClick()
     {
-        Debug.Log("close work!");
-        Menu.SetActive(false);
-        AudioManager.clickSound = true;
+        if (Menu != null)
+        {
+            Debug.Log("Close work!");
+            Menu.SetActive(false);
+            AudioManager.clickSound = true;
+        }
     }
-
 
     public void OnRstartClick()
     {
-        Debug.Log("restart work!");
+        Debug.Log("Restart work!");
         StartCoroutine(WaitAndReload());
         AudioManager.clickSound = true;
     }
-
 
     private IEnumerator WaitAndReload()
     {
@@ -58,26 +70,28 @@ public class MenuController : MonoBehaviour
         AudioManager.clickSound = true;
     }
 
-    //Load  Level 1
     private IEnumerator LoadLevel1()
     {
-
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("Yoav");
     }
 
     public void OnaboutClick()
     {
-        about.SetActive(true);
-        AudioManager.clickSound = true;
+        if (about != null)
+        {
+            about.SetActive(true);
+            AudioManager.clickSound = true;
+        }
     }
 
     public void Win()
     {
-        if (winM)
+        // Check if winM is true AND the WinMenu object actually exists in this scene
+        if (winM && WinMenu != null)
         {
             WinMenu.SetActive(true);
-            Debug.Log("winMenu");
+            Debug.Log("WinMenu is now active");
         }
     }
 
@@ -93,6 +107,3 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Opening");
     }
 }
-    
-
-    
