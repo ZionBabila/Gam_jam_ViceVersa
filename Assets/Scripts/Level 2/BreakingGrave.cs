@@ -23,23 +23,28 @@ public class BreakingGrave : MonoBehaviour
             if (currentFrame == 1)
             {
                 spriteRenderer.sprite = frame1;
+                AudioManager.hitFirstSound = true;
             }
             else if (currentFrame == 2)
             {
                 spriteRenderer.sprite = frame2;
+                AudioManager.hitSecondSound = true;
             }
             else if (currentFrame == 3)
             {
                 spriteRenderer.sprite = frame3;
+                AudioManager.hitSecondSound = true;
             }
             else if (currentFrame == 4)
             {
                 spriteRenderer.sprite = frame4;
+                AudioManager.hitSecondSound = true;
             }
             else if (currentFrame == 5)
             {
                 if (ObjectToSpawn != null)
                 {
+                    AudioManager.hitLastSound = true;
                     Instantiate(ObjectToSpawn, transform.position, transform.rotation);
 
                 }

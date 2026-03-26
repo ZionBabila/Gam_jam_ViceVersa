@@ -4731,9 +4731,9 @@ MonoBehaviour:
   ghost: {fileID: 0}
   winLevel: {fileID: 0}
   loseLevel: {fileID: 0}
-  hitFirst: {fileID: 0}
-  hitSecond: {fileID: 0}
-  hitLast: {fileID: 0}
+  hitFirst: {fileID: 8300000, guid: c9b68224744c6dc4c9dfbd4c43a788b4, type: 3}
+  hitSecond: {fileID: 8300000, guid: 969c31c34c7edf14cbf107a1b08c6d41, type: 3}
+  hitLast: {fileID: 8300000, guid: c4fdc2d9df2efb349adeba26248e071c, type: 3}
   boo: {fileID: 0}
 --- !u!4 &812567830
 Transform:

@@ -16,6 +16,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip hitLast;
     public AudioClip boo;
 
+
     public static bool OuchSound = false;
     public static bool hitFirstSound = false;
     public static bool hitSecondSound = false;
@@ -23,9 +24,9 @@ public class AudioManager : MonoBehaviour
     public static bool clickSound = false;
     public static bool ghostSound = false;
     public static bool winLevelSound = false;
-
     public static bool loseLevelSound = false;
     public static bool booSound = false;
+
 
 
 
@@ -54,7 +55,6 @@ public class AudioManager : MonoBehaviour
         HitLast();
         LoseLevel();
         Boo();
-
     }
 
     private void Boo()
