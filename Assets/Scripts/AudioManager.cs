@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip hitFirst;
     public AudioClip hitSecond;
     public AudioClip hitLast;
+    public AudioClip boo;
 
     public static bool OuchSound = false;
     public static bool hitFirstSound = false;
@@ -24,6 +25,7 @@ public class AudioManager : MonoBehaviour
     public static bool winLevelSound = false;
 
     public static bool loseLevelSound = false;
+    public static bool booSound = false;
 
 
 
@@ -37,6 +39,8 @@ public class AudioManager : MonoBehaviour
         clickSound = false;
         ghostSound = false;
         winLevelSound = false;
+        loseLevelSound = false;
+        booSound = false;
     }
 
     void Update()
@@ -49,9 +53,18 @@ public class AudioManager : MonoBehaviour
         HitSecond();
         HitLast();
         LoseLevel();
+        Boo();
 
     }
 
+    private void Boo()
+    {
+        if (booSound == true)
+        {
+            source.PlayOneShot(boo);
+            booSound = false;
+        }
+    }
     private void Ouch()
     {
         if (OuchSound == true)
