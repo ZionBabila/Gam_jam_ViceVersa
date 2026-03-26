@@ -42,9 +42,9 @@ public class BreakingGrave : MonoBehaviour
             }
             else if (currentFrame == 5)
             {
+                AudioManager.hitLastSound = true;
                 if (ObjectToSpawn != null)
                 {
-                    AudioManager.hitLastSound = true;
                     Instantiate(ObjectToSpawn, transform.position, transform.rotation);
 
                 }
