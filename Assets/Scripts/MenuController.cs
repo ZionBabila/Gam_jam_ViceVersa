@@ -8,6 +8,8 @@ public class MenuController : MonoBehaviour
     public GameObject Menu;
     public GameObject about;
     public GameObject WinMenu;
+    public GameObject tutorialMenu;
+    public GameObject tutorialMenuX;
     public static bool winM = false;
 
     void Start()
@@ -99,6 +101,12 @@ public class MenuController : MonoBehaviour
     {
         StartCoroutine(Continueload());
         AudioManager.clickSound = true;
+    }
+
+    public void OnExitTutorial()
+    {       
+            tutorialMenu.SetActive(false);
+            tutorialMenuX.SetActive(false);
     }
 
     private IEnumerator Continueload()
