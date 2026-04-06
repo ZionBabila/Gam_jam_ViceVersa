@@ -10,6 +10,7 @@ TagManager:
   - Block
   - Break
   - Last Portal
+  - PortalT
   layers:
   - Default
   - TransparentFX
