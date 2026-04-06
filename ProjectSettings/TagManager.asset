@@ -12,6 +12,8 @@ TagManager:
   - Last Portal
   - Portal - Level 1
   - Portal - Level 2
+  - heart
+  - BreakBone
   layers:
   - Default
   - TransparentFX

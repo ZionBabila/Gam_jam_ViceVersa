@@ -15,6 +15,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip hitSecond;
     public AudioClip hitLast;
     public AudioClip boo;
+    public AudioClip bone1;
+    public AudioClip bone2;
+    public AudioClip bone3;
+    public AudioClip bone4;
 
 
     public static bool OuchSound = false;
@@ -26,6 +30,10 @@ public class AudioManager : MonoBehaviour
     public static bool winLevelSound = false;
     public static bool loseLevelSound = false;
     public static bool booSound = false;
+    public static bool crackBones1 = false;
+    public static bool crackBones2 = false;
+    public static bool crackBones3 = false;
+    public static bool crackBones4 = false;
 
 
 
@@ -42,6 +50,11 @@ public class AudioManager : MonoBehaviour
         winLevelSound = false;
         loseLevelSound = false;
         booSound = false;
+        crackBones1 = false;
+        crackBones2 = false;
+        crackBones3 = false;
+        crackBones4 = false;
+
     }
 
     void Update()
@@ -55,8 +68,44 @@ public class AudioManager : MonoBehaviour
         HitLast();
         LoseLevel();
         Boo();
+        CrackB1();
+        CrackB2();
+        CrackB3();
+        CrackB4();
     }
 
+    private void CrackB1()
+    {
+        if (crackBones1 == true)
+        {
+            source.PlayOneShot(bone1);
+            crackBones1 = false;
+        }
+    }
+    private void CrackB2()
+    {
+        if (crackBones2 == true)
+        {
+            source.PlayOneShot(bone2);
+            crackBones2 = false;
+        }
+    }
+    private void CrackB3()
+    {
+        if (crackBones3 == true)
+        {
+            source.PlayOneShot(bone3);
+            crackBones3 = false;
+        }
+    }
+    private void CrackB4()
+    {
+        if (crackBones4 == true)
+        {
+            source.PlayOneShot(bone4);
+            crackBones4 = false;
+        }
+    }
     private void Boo()
     {
         if (booSound == true)
