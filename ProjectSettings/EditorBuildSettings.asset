@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Opening.unity
     guid: 868f556d0435c3d45813d7906a033afc
   - enabled: 1
-    path: Assets/Scenes/yoav.unity
+    path: Assets/Scenes/Level 2.unity
     guid: 45e074db4bcd7a748bf0375c6c9a92c5
   - enabled: 1
     path: Assets/Scenes/Yoav - Level2.unity
