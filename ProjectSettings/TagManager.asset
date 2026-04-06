@@ -11,6 +11,7 @@ TagManager:
   - Break
   - Last Portal
   - Portal - Level 1
+  - Portal - Level 2
   layers:
   - Default
   - TransparentFX
