@@ -8,19 +8,25 @@ public class EventManager : MonoBehaviour
     public GameObject Hart1;
     public GameObject Hart2;
     public GameObject Hart3;
-    public static bool TopNextLevel = false;
-    public static bool BottomNextLevel = false;
-    public static bool BottomWin = false;
+
+    //portals Check
+    public static bool TopOnPortalLevel1 = false;
+    public static bool BottomOnPortalLevel1 = false;
+    public static bool TopOnPortalLevel2 = false;
+    public static bool BottomOnPortalLevel2 = false;
     public static bool TopWin = false;
+    public static bool BottomWin = false;
 
 
 
     void Start()
     {
         Harts = 3;
-        TopNextLevel = false;
-        BottomNextLevel = false;
-}
+        TopOnPortalLevel1 = false;
+        BottomOnPortalLevel1 = false;
+        TopOnPortalLevel2 = false;
+        BottomOnPortalLevel2 = false;
+    }
 
     void Update()
     {
@@ -31,7 +37,8 @@ public class EventManager : MonoBehaviour
         }
 
         HartUi();
-        Level2();
+        Level1PortalChek();
+        Level2PortalChek();
         win();
     }
 
@@ -64,27 +71,44 @@ public class EventManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    //check for both Players
-    void Level2()
+    //Levels Loaders
+    //Level 1
+    void Level1PortalChek()
     {
-        if (TopNextLevel == true && BottomNextLevel == true)
+        if (TopOnPortalLevel1 == true && BottomOnPortalLevel1 == true)
         {
-            Debug.Log("win");
             PlayerTopPart.isDead = true;
             PlayerBottomPart.isDead = true;
-            StartCoroutine(WaitAndLoad());
+            StartCoroutine(LoadLevel2());
         }
     }
+    private IEnumerator LoadLevel2()
+    {
 
-    //Load The Level
-    private IEnumerator WaitAndLoad()
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Yoav");
+    }
+
+
+    //Level 2
+    void Level2PortalChek()
+    {
+        if (TopOnPortalLevel2 == true && BottomOnPortalLevel2 == true)
+        {
+            PlayerTopPart.isDead = true;
+            PlayerBottomPart.isDead = true;
+            StartCoroutine(LoadLevel3());
+        }
+    }
+    private IEnumerator LoadLevel3()
     {
        
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("Yoav - Level2");
     }
 
-    //Win
+
+    //Level3
     void win()
     {
         if(TopWin && BottomWin)

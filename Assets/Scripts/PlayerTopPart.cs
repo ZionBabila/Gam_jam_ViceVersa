@@ -122,11 +122,15 @@ public class PlayerTopPart : MonoBehaviour
             movePoint.position = previousPosition;
         }
 
-        // Portal System
-        if (other.CompareTag("Portal"))
+        // Portal Systems
+        if (other.CompareTag("Portal - Level 1"))
         {
-            Debug.Log("portal");
-            EventManager.TopNextLevel = true;
+            EventManager.TopOnPortalLevel1 = true;
+        }
+
+        if (other.CompareTag("Portal - Level 2"))
+        {
+            EventManager.TopOnPortalLevel2 = true;
         }
 
         // Last Portal System
