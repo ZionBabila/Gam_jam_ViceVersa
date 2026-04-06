@@ -86,7 +86,7 @@ public class EventManager : MonoBehaviour
     {
 
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Yoav");
+        SceneManager.LoadScene("Level 2");
     }
 
 
