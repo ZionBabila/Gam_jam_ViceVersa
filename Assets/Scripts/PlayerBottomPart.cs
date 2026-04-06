@@ -112,6 +112,12 @@ public class PlayerBottomPart : MonoBehaviour
         }
 
         // Portal System
+        if (other.CompareTag("PortalT"))
+        {
+            EventManager.BottomNextLevelT = true;
+        }
+
+        // Portal System
         if (other.CompareTag("Portal"))
         {
             Debug.Log("bottom");

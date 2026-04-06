@@ -10,6 +10,8 @@ public class MenuController : MonoBehaviour
     public GameObject WinMenu;
     public GameObject tutorialMenu;
     public GameObject tutorialMenuX;
+    public GameObject tutorialMenu2;
+    public GameObject tutorialMenuX2;
     public static bool winM = false;
 
     void Start()
@@ -28,6 +30,18 @@ public class MenuController : MonoBehaviour
     private void Update()
     {
         Win();
+    }
+
+    public void OnExitTutorial()
+    {
+        tutorialMenu.SetActive(false);
+        tutorialMenuX.SetActive(false);
+    }
+
+    public void OnExitTutorial2()
+    {
+        tutorialMenu2.SetActive(false);
+        tutorialMenuX2.SetActive(false);
     }
 
     public void OnSettingsClick()
@@ -103,11 +117,6 @@ public class MenuController : MonoBehaviour
         AudioManager.clickSound = true;
     }
 
-    public void OnExitTutorial()
-    {       
-            tutorialMenu.SetActive(false);
-            tutorialMenuX.SetActive(false);
-    }
 
     private IEnumerator Continueload()
     {
