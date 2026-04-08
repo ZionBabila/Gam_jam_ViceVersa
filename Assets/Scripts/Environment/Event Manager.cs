@@ -113,7 +113,6 @@ public class EventManager : MonoBehaviour
     {
         if(TopWin && BottomWin)
         {
-            Debug.Log("win");
             MenuController.winM = true;
         }
     }

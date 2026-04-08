@@ -32,66 +32,7 @@ public class MenuController : MonoBehaviour
         Win();
     }
 
-    public void OnExitTutorial()
-    {
-        tutorialMenu.SetActive(false);
-        tutorialMenuX.SetActive(false);
-    }
-
-    public void OnExitTutorial2()
-    {
-        tutorialMenu2.SetActive(false);
-        tutorialMenuX2.SetActive(false);
-    }
-
-    public void OnSettingsClick()
-    {
-        // Check if Menu exists before trying to activate it
-        if (Menu != null)
-        {
-            Debug.Log("Settings work!");
-            Menu.SetActive(true);
-            AudioManager.clickSound = true;
-        }
-    }
-
-    public void OnCloseClick()
-    {
-        if (Menu != null)
-        {
-            Debug.Log("Close work!");
-            Menu.SetActive(false);
-            AudioManager.clickSound = true;
-        }
-    }
-
-    public void OnRstartClick()
-    {
-        Debug.Log("Restart work!");
-        StartCoroutine(WaitAndReload());
-        AudioManager.clickSound = true;
-    }
-
-    private IEnumerator WaitAndReload()
-    {
-        PlayerTopPart.isDead = true;
-        PlayerBottomPart.isDead = true;
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void OnstartClick()
-    {
-        StartCoroutine(LoadLevel1());
-        AudioManager.clickSound = true;
-    }
-
-    private IEnumerator LoadLevel1()
-    {
-        yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Tutorial");
-    }
-
+    //Opening Scene
     public void OnaboutClick()
     {
         if (about != null)
@@ -100,27 +41,82 @@ public class MenuController : MonoBehaviour
             AudioManager.clickSound = true;
         }
     }
+    public void OnstartClick()
+    {
+        StartCoroutine(LoadLevel1());
+        AudioManager.clickSound = true;
+    }
+    private IEnumerator LoadLevel1()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Tutorial");
+    }
 
+
+    //Tutorial
+    public void OnExitTutorial()
+    {
+        AudioManager.clickSound = true;
+        tutorialMenu.SetActive(false);
+        tutorialMenuX.SetActive(false);
+    }
+    public void OnExitTutorial2()
+    {
+        AudioManager.clickSound = true;
+        tutorialMenu2.SetActive(false);
+        tutorialMenuX2.SetActive(false);
+    }
+
+
+    //Level 2
     public void Win()
     {
         // Check if winM is true AND the WinMenu object actually exists in this scene
         if (winM && WinMenu != null)
         {
             WinMenu.SetActive(true);
-            Debug.Log("WinMenu is now active");
         }
     }
-
-    public void OnContinue()
+    public void OnContinueClick()
     {
         StartCoroutine(Continueload());
         AudioManager.clickSound = true;
     }
-
-
     private IEnumerator Continueload()
     {
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Opening");
+    }
+
+
+    //Side Menu
+    public void OnSettingsClick()
+    {
+        // Check if Menu exists before trying to activate it
+        if (Menu != null)
+        {
+            Menu.SetActive(true);
+            AudioManager.clickSound = true;
+        }
+    }
+    public void OnRstartClick()
+    {
+        StartCoroutine(WaitAndReload());
+        AudioManager.clickSound = true;
+    }
+    private IEnumerator WaitAndReload()
+    {
+        PlayerTopPart.isDead = true;
+        PlayerBottomPart.isDead = true;
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void OnCloseClick()
+    {
+        if (Menu != null)
+        {
+            Menu.SetActive(false);
+            AudioManager.clickSound = true;
+        }
     }
 }
