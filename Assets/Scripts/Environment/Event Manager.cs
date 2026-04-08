@@ -8,8 +8,7 @@ public class EventManager : MonoBehaviour
     public GameObject Hart1;
     public GameObject Hart2;
     public GameObject Hart3;
-    public GameObject Hart4;
-
+    private bool isTransitioning = false;
 
     //portals Check
     public static bool TopOnPortalLevel1 = false;
@@ -32,8 +31,12 @@ public class EventManager : MonoBehaviour
 
     void Update()
     {
+        if (isTransitioning)
+        {
+            return; // Skip the rest of the Update if we're transitioning
+        }
         //Command to restart
-        if (Harts<1)
+        if (Harts < 1)
         {
             StartCoroutine(WaitAndReload());
         }
@@ -47,11 +50,6 @@ public class EventManager : MonoBehaviour
     //Visual representation of the hits
     void HartUi()
     {
-        if (Harts < 4)
-        {
-            Destroy(Hart4);
-        }
-
         if (Harts < 3)
         {
             Destroy(Hart1);
@@ -84,6 +82,7 @@ public class EventManager : MonoBehaviour
     {
         if (TopOnPortalLevel1 == true && BottomOnPortalLevel1 == true)
         {
+            isTransitioning = true; // Set the flag to prevent further updates
             PlayerTopPart.isDead = true;
             PlayerBottomPart.isDead = true;
             StartCoroutine(LoadLevel2());
@@ -91,8 +90,8 @@ public class EventManager : MonoBehaviour
     }
     private IEnumerator LoadLevel2()
     {
-
-        yield return new WaitForSeconds(3f);
+        AudioManager.winLevelSound = true;
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("Level 2");
     }
 
@@ -102,6 +101,10 @@ public class EventManager : MonoBehaviour
     {
         if (TopOnPortalLevel2 == true && BottomOnPortalLevel2 == true)
         {
+            if (!isTransitioning)
+            {
+                isTransitioning = true; // Set the flag to prevent further updates
+            }
             PlayerTopPart.isDead = true;
             PlayerBottomPart.isDead = true;
             StartCoroutine(LoadLevel3());
@@ -109,8 +112,8 @@ public class EventManager : MonoBehaviour
     }
     private IEnumerator LoadLevel3()
     {
-       
-        yield return new WaitForSeconds(3f);
+        AudioManager.winLevelSound = true;
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("Level3");
     }
 
@@ -118,7 +121,7 @@ public class EventManager : MonoBehaviour
     //Level3
     void win()
     {
-        if(TopWin && BottomWin)
+        if (TopWin && BottomWin)
         {
             MenuController.winM = true;
         }
