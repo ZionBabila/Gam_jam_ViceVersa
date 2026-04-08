@@ -89,7 +89,7 @@ public class MenuController : MonoBehaviour
     private IEnumerator LoadLevel1()
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Yoav");
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void OnaboutClick()
