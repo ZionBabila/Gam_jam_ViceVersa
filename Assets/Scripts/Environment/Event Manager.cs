@@ -8,6 +8,8 @@ public class EventManager : MonoBehaviour
     public GameObject Hart1;
     public GameObject Hart2;
     public GameObject Hart3;
+    public GameObject Hart4;
+
 
     //portals Check
     public static bool TopOnPortalLevel1 = false;
@@ -45,6 +47,11 @@ public class EventManager : MonoBehaviour
     //Visual representation of the hits
     void HartUi()
     {
+        if (Harts < 4)
+        {
+            Destroy(Hart4);
+        }
+
         if (Harts < 3)
         {
             Destroy(Hart1);
