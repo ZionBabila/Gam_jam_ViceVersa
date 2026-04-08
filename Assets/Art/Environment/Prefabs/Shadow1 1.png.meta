@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: e267cdf1013652f4891a56bb7ab3a2f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8500555258419247799
+    second: Shadow1 1_0
+  - first:
+      213: -3577092758005027734
+    second: Shadow1 1_1
+  - first:
+      213: 2532701867550271481
+    second: Shadow1 1_2
+  - first:
+      213: 4491282516035521320
+    second: Shadow1 1_3
+  - first:
+      213: -3833779024117848058
+    second: Shadow1 1_4
+  - first:
+      213: -5166967065260250787
+    second: Shadow1 1_5
+  - first:
+      213: 5232056870445233124
+    second: Shadow1 1_6
+  - first:
+      213: 3265081798486308352
+    second: Shadow1 1_7
+  - first:
+      213: -1076749297793577275
+    second: Shadow1 1_8
+  - first:
+      213: -3869410912586792155
+    second: Shadow1 1_9
+  - first:
+      213: -894087339220107290
+    second: Shadow1 1_10
+  - first:
+      213: 9187682345323083446
+    second: Shadow1 1_11
+  - first:
+      213: 1498026776139964545
+    second: Shadow1 1_12
+  - first:
+      213: -4456579502365638502
+    second: Shadow1 1_13
+  - first:
+      213: 6314565450638671072
+    second: Shadow1 1_14
+  - first:
+      213: -7174856341165924848
+    second: Shadow1 1_15
+  - first:
+      213: 8727364855261254646
+    second: Shadow1 1_16
+  - first:
+      213: -7013038890088604457
+    second: Shadow1 1_17
+  - first:
+      213: 3976947780590664000
+    second: Shadow1 1_18
+  - first:
+      213: 828934304257679694
+    second: Shadow1 1_19
+  - first:
+      213: 7538883284439657606
+    second: Shadow1 1_20
+  - first:
+      213: -1403188877797475321
+    second: Shadow1 1_21
+  - first:
+      213: 1728637398486989509
+    second: Shadow1 1_22
+  - first:
+      213: -7702894894867365232
+    second: Shadow1 1_23
+  - first:
+      213: -1843538163804613949
+    second: Shadow1 1_24
+  - first:
+      213: -256977045238754018
+    second: Shadow1 1_25
+  - first:
+      213: -950705257165885324
+    second: Shadow1 1_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shadow1 1_0
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 2804
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba78ab38f908f570800000000000000
+      internalID: 8500555258419247799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_1
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2798
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cec7eb61d9b5ec0800000000000000
+      internalID: -3577092758005027734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_2
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 2788
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f76d410ee6f52320800000000000000
+      internalID: 2532701867550271481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_3
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2786
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b483a07ad345e30800000000000000
+      internalID: 4491282516035521320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_4
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2776
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608ac103a4eabcac0800000000000000
+      internalID: -3833779024117848058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_5
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 2764
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59250574de3b48b0800000000000000
+      internalID: -5166967065260250787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_6
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 2783
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3b787c0000c9840800000000000000
+      internalID: 5232056870445233124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_7
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1479
+        width: 7342
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006be59b896ef4d20800000000000000
+      internalID: 3265081798486308352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_8
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 2773
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceccd0f73e9e01f0800000000000000
+      internalID: -1076749297793577275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_9
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2769
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5238e39a6471d4ac0800000000000000
+      internalID: -3869410912586792155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_10
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 2733
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef7c935d409793f0800000000000000
+      internalID: -894087339220107290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_11
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 2749
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b63c162a64318f70800000000000000
+      internalID: 9187682345323083446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_12
+      rect:
+        serializedVersion: 2
+        x: 7779
+        y: 2352
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180a8df7a6f0ac410800000000000000
+      internalID: 1498026776139964545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_13
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 2233
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a908538fd8c0722c0800000000000000
+      internalID: -4456579502365638502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_14
+      rect:
+        serializedVersion: 2
+        x: 7783
+        y: 2229
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecb54442d7d1a750800000000000000
+      internalID: 6314565450638671072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_15
+      rect:
+        serializedVersion: 2
+        x: 7765
+        y: 2220
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e9856fb2acd6c90800000000000000
+      internalID: -7174856341165924848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_16
+      rect:
+        serializedVersion: 2
+        x: 7743
+        y: 2171
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f35317a814dd1970800000000000000
+      internalID: 8727364855261254646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2058
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd440494eacae90800000000000000
+      internalID: -7013038890088604457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2074
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04972688fe4f03730800000000000000
+      internalID: 3976947780590664000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1955
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e412a6b9b57f08b00800000000000000
+      internalID: 828934304257679694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_20
+      rect:
+        serializedVersion: 2
+        x: 6238
+        y: 1481
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ce72c876e7f9860800000000000000
+      internalID: 7538883284439657606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_21
+      rect:
+        serializedVersion: 2
+        x: 6242
+        y: 1459
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3a1a662fd68ce0800000000000000
+      internalID: -1403188877797475321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_22
+      rect:
+        serializedVersion: 2
+        x: 6474
+        y: 1460
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cab5422e8a5df710800000000000000
+      internalID: 1728637398486989509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_23
+      rect:
+        serializedVersion: 2
+        x: 6550
+        y: 1455
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092c241a7e1d91590800000000000000
+      internalID: -7702894894867365232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_24
+      rect:
+        serializedVersion: 2
+        x: 6568
+        y: 1470
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2dc88becf6a66e0800000000000000
+      internalID: -1843538163804613949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_25
+      rect:
+        serializedVersion: 2
+        x: 6583
+        y: 1451
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e155d172db80f6cf0800000000000000
+      internalID: -256977045238754018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow1 1_26
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 1461
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470f78c0b9a6ec2f0800000000000000
+      internalID: -950705257165885324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shadow1 1_0: 8500555258419247799
+      Shadow1 1_1: -3577092758005027734
+      Shadow1 1_10: -894087339220107290
+      Shadow1 1_11: 9187682345323083446
+      Shadow1 1_12: 1498026776139964545
+      Shadow1 1_13: -4456579502365638502
+      Shadow1 1_14: 6314565450638671072
+      Shadow1 1_15: -7174856341165924848
+      Shadow1 1_16: 8727364855261254646
+      Shadow1 1_17: -7013038890088604457
+      Shadow1 1_18: 3976947780590664000
+      Shadow1 1_19: 828934304257679694
+      Shadow1 1_2: 2532701867550271481
+      Shadow1 1_20: 7538883284439657606
+      Shadow1 1_21: -1403188877797475321
+      Shadow1 1_22: 1728637398486989509
+      Shadow1 1_23: -7702894894867365232
+      Shadow1 1_24: -1843538163804613949
+      Shadow1 1_25: -256977045238754018
+      Shadow1 1_26: -950705257165885324
+      Shadow1 1_3: 4491282516035521320
+      Shadow1 1_4: -3833779024117848058
+      Shadow1 1_5: -5166967065260250787
+      Shadow1 1_6: 5232056870445233124
+      Shadow1 1_7: 3265081798486308352
+      Shadow1 1_8: -1076749297793577275
+      Shadow1 1_9: -3869410912586792155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

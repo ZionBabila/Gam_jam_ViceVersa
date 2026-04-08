@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 6106c0232b1d79b4a9fbd95c76fb39a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3028721624867921974
+    second: Grave2_0
+  - first:
+      213: -9956918155296731
+    second: Grave2_1
+  - first:
+      213: -32217143402459588
+    second: Grave2_2
+  - first:
+      213: -6958728116436789883
+    second: Grave2_3
+  - first:
+      213: -3260845698578172468
+    second: Grave2_4
+  - first:
+      213: -5209403201143078416
+    second: Grave2_5
+  - first:
+      213: -9047728061226909004
+    second: Grave2_6
+  - first:
+      213: 4662282719561721192
+    second: Grave2_7
+  - first:
+      213: -4500497654525898885
+    second: Grave2_8
+  - first:
+      213: 7229257704154874399
+    second: Grave2_9
+  - first:
+      213: -4316665333514277297
+    second: Grave2_10
+  - first:
+      213: -321455278731881805
+    second: Grave2_11
+  - first:
+      213: -5723699457047181501
+    second: Grave2_12
+  - first:
+      213: -343588972040102915
+    second: Grave2_13
+  - first:
+      213: 3424695002018520328
+    second: Grave2_14
+  - first:
+      213: 2201905398520776392
+    second: Grave2_15
+  - first:
+      213: -6185485050561292067
+    second: Grave2_16
+  - first:
+      213: -1609580792674801724
+    second: Grave2_17
+  - first:
+      213: -2227136848618064585
+    second: Grave2_18
+  - first:
+      213: 6200255037497274102
+    second: Grave2_19
+  - first:
+      213: -6629210486258485012
+    second: Grave2_20
+  - first:
+      213: -5264349084611375551
+    second: Grave2_21
+  - first:
+      213: -3878038350480711673
+    second: Grave2_22
+  - first:
+      213: -9044181224881032550
+    second: Grave2_23
+  - first:
+      213: -7383143386999472810
+    second: Grave2_24
+  - first:
+      213: 1697930877069981497
+    second: Grave2_25
+  - first:
+      213: -1325756559638440287
+    second: Grave2_26
+  - first:
+      213: 2986264055793852969
+    second: Grave2_27
+  - first:
+      213: -1222346393081863361
+    second: Grave2_28
+  - first:
+      213: -1189970814385060744
+    second: Grave2_29
+  - first:
+      213: 7975381334443253476
+    second: Grave2_30
+  - first:
+      213: -2181541615708031537
+    second: Grave2_31
+  - first:
+      213: 8836629497309388776
+    second: Grave2_32
+  - first:
+      213: 593009623406035870
+    second: Grave2_33
+  - first:
+      213: -8254715787165405853
+    second: Grave2_34
+  - first:
+      213: 3515281733331336815
+    second: Grave2_35
+  - first:
+      213: 1304217844363405672
+    second: Grave2_36
+  - first:
+      213: 9053991698778791799
+    second: Grave2_37
+  - first:
+      213: -661527307451406113
+    second: Grave2_38
+  - first:
+      213: 1619835905593275091
+    second: Grave2_39
+  - first:
+      213: -2629625256762026153
+    second: Grave2_40
+  - first:
+      213: 5686849294031791896
+    second: Grave2_41
+  - first:
+      213: 6456142781525099187
+    second: Grave2_42
+  - first:
+      213: 4631281583497443970
+    second: Grave2_43
+  - first:
+      213: 1276021164205521525
+    second: Grave2_44
+  - first:
+      213: -4254039008174830312
+    second: Grave2_45
+  - first:
+      213: 4761450699260834504
+    second: Grave2_46
+  - first:
+      213: 5585674217196405031
+    second: Grave2_47
+  - first:
+      213: 6506916404342976744
+    second: Grave2_48
+  - first:
+      213: 1905732059836252992
+    second: Grave2_49
+  - first:
+      213: -7761423599187784828
+    second: Grave2_50
+  - first:
+      213: 4293094528191978598
+    second: Grave2_51
+  - first:
+      213: 2411961037087828820
+    second: Grave2_52
+  - first:
+      213: 1556937306293645092
+    second: Grave2_53
+  - first:
+      213: 752953604891452241
+    second: Grave2_54
+  - first:
+      213: 6097640422560267216
+    second: Grave2_55
+  - first:
+      213: 4861693673826051304
+    second: Grave2_56
+  - first:
+      213: -5510311011951086536
+    second: Grave2_57
+  - first:
+      213: 8685985386477476082
+    second: Grave2_58
+  - first:
+      213: 458097969799158241
+    second: Grave2_59
+  - first:
+      213: 733163204517851893
+    second: Grave2_60
+  - first:
+      213: 7660771252240603024
+    second: Grave2_61
+  - first:
+      213: 160419310523803727
+    second: Grave2_62
+  - first:
+      213: -6044868850255416691
+    second: Grave2_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grave2_0
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 7848
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630ebcd554e280a20800000000000000
+      internalID: 3028721624867921974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_1
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 7858
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520cb465c30acdff0800000000000000
+      internalID: -9956918155296731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_2
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 7855
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e81d3cdaa8d8ff0800000000000000
+      internalID: -32217143402459588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_3
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 7868
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5851343a5a1ad6f90800000000000000
+      internalID: -6958728116436789883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_4
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 7831
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc533e42d162fb2d0800000000000000
+      internalID: -3260845698578172468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_5
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 7859
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f18510a36b74b7b0800000000000000
+      internalID: -5209403201143078416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_6
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 7861
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b28c36e343007280800000000000000
+      internalID: -9047728061226909004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_7
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 7852
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8652bed7e61c3b040800000000000000
+      internalID: 4662282719561721192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_8
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 7869
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f41855a350b81c0800000000000000
+      internalID: -4500497654525898885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_9
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 7849
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1248e5649b735460800000000000000
+      internalID: 7229257704154874399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_10
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 7868
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e63a5ffbf1814c0800000000000000
+      internalID: -4316665333514277297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_11
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 7838
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2130c8026f98bf0800000000000000
+      internalID: -321455278731881805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_12
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 7845
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3474b955ba55190b0800000000000000
+      internalID: -5723699457047181501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_13
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 7855
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbdecc76a35b3bf0800000000000000
+      internalID: -343588972040102915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_14
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 7820
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d9e53a5f5f68f20800000000000000
+      internalID: 3424695002018520328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_15
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 7850
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c688d33b4dbe8e10800000000000000
+      internalID: 2201905398520776392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_16
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 7844
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd81ecd5e1eb82aa0800000000000000
+      internalID: -6185485050561292067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_17
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 7831
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7a3570cce99a9e0800000000000000
+      internalID: -1609580792674801724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_18
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 7847
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735ffe706de9711e0800000000000000
+      internalID: -2227136848618064585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_19
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 7849
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fee9d23b1bbb0650800000000000000
+      internalID: 6200255037497274102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_20
+      rect:
+        serializedVersion: 2
+        x: 3753
+        y: 7849
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8b4419f205004a0800000000000000
+      internalID: -6629210486258485012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_21
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 7832
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e0616366641f6b0800000000000000
+      internalID: -5264349084611375551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_22
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 7837
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700614ebaa07e2ac0800000000000000
+      internalID: -3878038350480711673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_23
+      rect:
+        serializedVersion: 2
+        x: 3802
+        y: 7848
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9275b6181d9c7280800000000000000
+      internalID: -9044181224881032550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_24
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 7848
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d3f14053ec98990800000000000000
+      internalID: -7383143386999472810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_25
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 379
+        width: 5605
+        height: 7474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9377cecf223409710800000000000000
+      internalID: 1697930877069981497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_26
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 7845
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a65b14ee67f99de0800000000000000
+      internalID: -1325756559638440287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_27
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 7833
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9222c1b3657517920800000000000000
+      internalID: 2986264055793852969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_28
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 7840
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3320e78e6a590fe0800000000000000
+      internalID: -1222346393081863361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_29
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 7841
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8740f7b59df5c7fe0800000000000000
+      internalID: -1189970814385060744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_30
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 7847
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee55cb711f3eae60800000000000000
+      internalID: 7975381334443253476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_31
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 7833
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5bdf4757b99b1e0800000000000000
+      internalID: -2181541615708031537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_32
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 7820
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef5dd695b302aa70800000000000000
+      internalID: 8836629497309388776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_33
+      rect:
+        serializedVersion: 2
+        x: 3857
+        y: 7841
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93418f4c1bca3800800000000000000
+      internalID: 593009623406035870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_34
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 7823
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d62381abb517d80800000000000000
+      internalID: -8254715787165405853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_35
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 7831
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e32a89c1ac8c030800000000000000
+      internalID: 3515281733331336815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_36
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 7828
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869a10b2833891210800000000000000
+      internalID: 1304217844363405672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_37
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 7834
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f9b0dda7d36ad70800000000000000
+      internalID: 9053991698778791799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_38
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 7836
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd863263b68c1d6f0800000000000000
+      internalID: -661527307451406113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_39
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 7832
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d27f438c20da7610800000000000000
+      internalID: 1619835905593275091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_40
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 7827
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757dd46e2c1b18bd0800000000000000
+      internalID: -2629625256762026153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_41
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 7830
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81722fd7d4fbbee40800000000000000
+      internalID: 5686849294031791896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_42
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 7833
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2810857a3d89950800000000000000
+      internalID: 6456142781525099187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_43
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 7828
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a7c27001e954040800000000000000
+      internalID: 4631281583497443970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_44
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 7832
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ab95afc7655b110800000000000000
+      internalID: 1276021164205521525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_45
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 7838
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d85199f0e96f4c0800000000000000
+      internalID: -4254039008174830312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_46
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 7829
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c23af80f22141240800000000000000
+      internalID: 4761450699260834504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_47
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 7831
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721cc0b3b1d448d40800000000000000
+      internalID: 5585674217196405031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_48
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 7831
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e07600aef53d4a50800000000000000
+      internalID: 6506916404342976744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_49
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 7827
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0430d9f1635827a10800000000000000
+      internalID: 1905732059836252992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_50
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 7824
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b041bbb52e94490800000000000000
+      internalID: -7761423599187784828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_51
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 422
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c5e044ab2249b30800000000000000
+      internalID: 4293094528191978598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_52
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 420
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45be3bbb8c1097120800000000000000
+      internalID: 2411961037087828820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_53
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 423
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42faf272b3a5b9510800000000000000
+      internalID: 1556937306293645092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_54
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 402
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153a7e77057037a00800000000000000
+      internalID: 752953604891452241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_55
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 423
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db74ca58ab2f9450800000000000000
+      internalID: 6097640422560267216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_56
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 423
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e46a2353a4387340800000000000000
+      internalID: 4861693673826051304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_57
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 416
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8347bba54517783b0800000000000000
+      internalID: -5510311011951086536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_58
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 423
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8593d40b1da8870800000000000000
+      internalID: 8685985386477476082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_59
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 412
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9d43a2dad7b5600800000000000000
+      internalID: 458097969799158241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_60
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 414
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f27cafcc08bc2a00800000000000000
+      internalID: 733163204517851893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_61
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 414
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097535b8dd6805a60800000000000000
+      internalID: 7660771252240603024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_62
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 399
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4862e2538ce93200800000000000000
+      internalID: 160419310523803727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grave2_63
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 398
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82b3bacecf4c1ca0800000000000000
+      internalID: -6044868850255416691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grave2_0: 3028721624867921974
+      Grave2_1: -9956918155296731
+      Grave2_10: -4316665333514277297
+      Grave2_11: -321455278731881805
+      Grave2_12: -5723699457047181501
+      Grave2_13: -343588972040102915
+      Grave2_14: 3424695002018520328
+      Grave2_15: 2201905398520776392
+      Grave2_16: -6185485050561292067
+      Grave2_17: -1609580792674801724
+      Grave2_18: -2227136848618064585
+      Grave2_19: 6200255037497274102
+      Grave2_2: -32217143402459588
+      Grave2_20: -6629210486258485012
+      Grave2_21: -5264349084611375551
+      Grave2_22: -3878038350480711673
+      Grave2_23: -9044181224881032550
+      Grave2_24: -7383143386999472810
+      Grave2_25: 1697930877069981497
+      Grave2_26: -1325756559638440287
+      Grave2_27: 2986264055793852969
+      Grave2_28: -1222346393081863361
+      Grave2_29: -1189970814385060744
+      Grave2_3: -6958728116436789883
+      Grave2_30: 7975381334443253476
+      Grave2_31: -2181541615708031537
+      Grave2_32: 8836629497309388776
+      Grave2_33: 593009623406035870
+      Grave2_34: -8254715787165405853
+      Grave2_35: 3515281733331336815
+      Grave2_36: 1304217844363405672
+      Grave2_37: 9053991698778791799
+      Grave2_38: -661527307451406113
+      Grave2_39: 1619835905593275091
+      Grave2_4: -3260845698578172468
+      Grave2_40: -2629625256762026153
+      Grave2_41: 5686849294031791896
+      Grave2_42: 6456142781525099187
+      Grave2_43: 4631281583497443970
+      Grave2_44: 1276021164205521525
+      Grave2_45: -4254039008174830312
+      Grave2_46: 4761450699260834504
+      Grave2_47: 5585674217196405031
+      Grave2_48: 6506916404342976744
+      Grave2_49: 1905732059836252992
+      Grave2_5: -5209403201143078416
+      Grave2_50: -7761423599187784828
+      Grave2_51: 4293094528191978598
+      Grave2_52: 2411961037087828820
+      Grave2_53: 1556937306293645092
+      Grave2_54: 752953604891452241
+      Grave2_55: 6097640422560267216
+      Grave2_56: 4861693673826051304
+      Grave2_57: -5510311011951086536
+      Grave2_58: 8685985386477476082
+      Grave2_59: 458097969799158241
+      Grave2_6: -9047728061226909004
+      Grave2_60: 733163204517851893
+      Grave2_61: 7660771252240603024
+      Grave2_62: 160419310523803727
+      Grave2_63: -6044868850255416691
+      Grave2_7: 4662282719561721192
+      Grave2_8: -4500497654525898885
+      Grave2_9: 7229257704154874399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
