@@ -72,7 +72,7 @@ public class EventManager : MonoBehaviour
     }
 
     //Levels Loaders
-    //Level 1
+    //Tutorial
     void Level1PortalChek()
     {
         if (TopOnPortalLevel1 == true && BottomOnPortalLevel1 == true)
@@ -104,7 +104,7 @@ public class EventManager : MonoBehaviour
     {
        
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Yoav - Level2");
+        SceneManager.LoadScene("Level3");
     }
 
 

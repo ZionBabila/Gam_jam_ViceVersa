@@ -78,7 +78,6 @@ public class PlayerTopPart : MonoBehaviour
                     else
                     {
                         AudioManager.hitFirstSound = true;
-                        Debug.Log("hit");
                     }
                 }
                 else if (Mathf.Abs(moveY) == 1f)
@@ -94,7 +93,6 @@ public class PlayerTopPart : MonoBehaviour
                     else
                     {
                         AudioManager.hitFirstSound = true;
-                        Debug.Log("hit");
                     }
                 }
             }
