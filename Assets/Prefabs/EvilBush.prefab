@@ -125,11 +125,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455ecb525886c314c88f5c80dd473d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CandleLightFlicker
-  minIntensity: 0.8
+  minIntensity: 1.2
   maxIntensity: 1.5
   flickerSpeed: 0.066
-  minRadius: 0.01
-  maxRadius: 0.11
+  minRadius: 0.03
+  maxRadius: 0.16
 --- !u!1 &3478551689237414264
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,8 +449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455ecb525886c314c88f5c80dd473d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CandleLightFlicker
-  minIntensity: 0.8
+  minIntensity: 1.2
   maxIntensity: 1.5
   flickerSpeed: 0.066
-  minRadius: 0.01
-  maxRadius: 0.11
+  minRadius: 0.03
+  maxRadius: 0.16
