@@ -68,12 +68,14 @@ public class MenuController : MonoBehaviour
     }
 
 
-    //Level 2
+    //Level 3
     public void Win()
     {
         // Check if winM is true AND the WinMenu object actually exists in this scene
-        if (winM && WinMenu != null)
+        if (winM)
+            //&& WinMenu != null
         {
+            Debug.Log("winnnn!");
             WinMenu.SetActive(true);
         }
     }
