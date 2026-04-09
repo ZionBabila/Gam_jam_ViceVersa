@@ -12,7 +12,6 @@ public class GhostAnimationEvents : MonoBehaviour
         if (other.CompareTag("Player") && other.IsTouching(soundTriggerCollider))
         {
             AudioManager.ghostSound = true;
-            Debug.Log("Sound Trigger Activated!");
         }
     }
 }

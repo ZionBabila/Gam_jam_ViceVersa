@@ -120,10 +120,12 @@ public class PlayerTopPart : MonoBehaviour
             movePoint.position = previousPosition;
         }
 
-        //Break Graves System
-        if (other.CompareTag("Heart"))
+        //Heart
+        if (other.CompareTag("heart"))
         {
             EventManager.Harts += 1;
+            Debug.Log("heart");
+            Destroy(other.gameObject);
         }
 
         // Portal Systems

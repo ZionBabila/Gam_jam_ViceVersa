@@ -15,6 +15,7 @@ public class PlayerBottomPart : MonoBehaviour
 
 
 
+
     void Start()
     {
         isDead = false;
@@ -107,6 +108,14 @@ public class PlayerBottomPart : MonoBehaviour
         {
             transform.position = previousPosition;
             movePoint.position = previousPosition;
+        }
+
+        //Heart
+        if (other.CompareTag("heart"))
+        {
+            EventManager.Harts += 1;
+            Debug.Log("heart");
+            Destroy(other.gameObject);
         }
 
         // Portal Systems

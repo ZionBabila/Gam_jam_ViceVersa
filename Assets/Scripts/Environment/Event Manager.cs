@@ -8,6 +8,7 @@ public class EventManager : MonoBehaviour
     public GameObject Hart1;
     public GameObject Hart2;
     public GameObject Hart3;
+    public GameObject Hart4;
     private bool isTransitioning = false;
 
     //portals Check
@@ -50,20 +51,10 @@ public class EventManager : MonoBehaviour
     //Visual representation of the hits
     void HartUi()
     {
-        if (Harts < 3)
-        {
-            Destroy(Hart1);
-        }
-
-        if (Harts < 2)
-        {
-            Destroy(Hart2);
-        }
-
-        if (Harts < 1)
-        {
-            Destroy(Hart3);
-        }
+        Hart1.SetActive(Harts >= 1);
+        Hart2.SetActive(Harts >= 2);
+        Hart3.SetActive(Harts >= 3);
+        Hart4.SetActive(Harts >= 4);
     }
 
     // Restart System
